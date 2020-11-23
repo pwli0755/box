@@ -19,10 +19,12 @@ var embedFolder string
 
 func Init() {
 	flag.StringVar(&blobFileName, "o", "blob.go", "out file name")
-	flag.StringVar(&embedFolder, "d", "staic", "directory to pack")
+	flag.StringVar(&embedFolder, "d", "static", "directory to pack")
 
 	flag.Parse()
-	fmt.Println(blobFileName, embedFolder)
+	pwd, _ := os.Getwd()
+	fmt.Println("pwd: ", pwd)
+	fmt.Println("out file name: " + blobFileName + ", directory to pack: " + embedFolder)
 }
 
 var conv = map[string]interface{}{"conv": fmtByteSlice}
@@ -92,13 +94,16 @@ func main() {
 	Init()
 	// Checking directory with files
 	if _, err := os.Stat(embedFolder); os.IsNotExist(err) {
-		log.Fatal("Static directory does not exists!")
+		log.Fatalf("Static directory:%s does not exists!", embedFolder)
 	}
 
 	// Create map for filenames
 	configs := make(map[string][]byte)
 	infos := make(map[string]interface{})
 	infos["pkg"] = os.Getenv("GOPACKAGE")
+	if infos["pkg"] == "" {
+		infos["pkg"] = "main"
+	}
 	infos["configs"] = configs
 
 	// Walking through embed directory
