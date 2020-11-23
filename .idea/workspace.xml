@@ -20,13 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc272c9f-d54f-4583-a2b6-f516e190b038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/generate.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,6 +69,21 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="box" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -78,5 +98,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1838" height="285" key="GridCell.Tab.0.bottom" timestamp="1606101331236">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state width="1838" height="285" key="GridCell.Tab.0.bottom/40.0.1880.1080@40.0.1880.1080" timestamp="1606101331236" />
+    <state width="1838" height="285" key="GridCell.Tab.0.center" timestamp="1606101331236">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state width="1838" height="285" key="GridCell.Tab.0.center/40.0.1880.1080@40.0.1880.1080" timestamp="1606101331236" />
+    <state width="1838" height="285" key="GridCell.Tab.0.left" timestamp="1606101331235">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state width="1838" height="285" key="GridCell.Tab.0.left/40.0.1880.1080@40.0.1880.1080" timestamp="1606101331235" />
+    <state width="1838" height="285" key="GridCell.Tab.0.right" timestamp="1606101331236">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state width="1838" height="285" key="GridCell.Tab.0.right/40.0.1880.1080@40.0.1880.1080" timestamp="1606101331236" />
+    <state x="529" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606101043290">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state x="529" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/40.0.1880.1080@40.0.1880.1080" timestamp="1606101043290" />
   </component>
 </project>
