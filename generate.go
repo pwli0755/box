@@ -1,3 +1,3 @@
 package main
 
-//go:generate go run main.go -o blob.go -d static
+//go:generate go run main.go -o box.go -d static
